@@ -1,0 +1,22 @@
+.code_area{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.result{
+    width:80%;
+}
+
+textarea{
+    max-width: 100%;
+}
+@media only screen and (max-width: 600px){
+    .code_area{
+        flex-direction: column;
+    }
+
+    .result{
+        width:100%;
+    }
+}
