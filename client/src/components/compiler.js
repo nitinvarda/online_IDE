@@ -85,7 +85,7 @@ const Compiler = () => {
             <div >
                 <h2 style={{ textAlign: "center" }}>Welcome to online IDE</h2>
                 <hr />
-                <h4>Hello, this is online IDE where you can write code and run them in four different languages Python, Java,C++ and C</h4>
+                <h4>Hello, this is online IDE where you can write code in four different languages(Python,Java,C++ and C) and run them</h4>
                 {result.error}
                 <div className="d-flex justify-content-between">
                     <select name="lang" value={lang} onChange={change} required>
