@@ -62,36 +62,6 @@ const Compiler = () => {
     }
 
 
-
-    // const compile = (e) => {
-    //     setResult({
-    //         output: ""
-    //     })
-    //     e.preventDefault();
-    //     const data = {
-    //         source,
-    //         lang,
-    //         inputs
-    //     }
-    //     axios.post("/compile", data)
-    //         .then(res => {
-    //             console.log(res.data);
-    //             setResult({
-    //                 compile_Status: res.data.compile_status,
-    //                 error: res.data.error
-    //                 // compile_Status: res.data.run_status.stderr
-    //             })
-
-    //         })
-    //         .catch(err => {
-    //             console.log(err);
-    //             // setResult({
-    //             //     err: err
-    //             // })
-    //         })
-    // }
-
-
     const clear = () => {
         setCode({
             source: "",
