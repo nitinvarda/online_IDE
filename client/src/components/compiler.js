@@ -239,7 +239,7 @@ const Compiler = () => {
                                         <h4 style={{ textAlign: "center", padding: 10 }}>Output</h4>
                                         <h4>
 
-                                            <textarea rows="5" cols="100" placeholder="output will be shown here" value={result.output} />
+                                            <textarea className="source" rows="5" cols="100" placeholder="output will be shown here" value={result.output} />
                                         </h4>
                                     </div>
                                 </div>
