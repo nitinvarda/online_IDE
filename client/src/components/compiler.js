@@ -207,7 +207,7 @@ const Compiler = () => {
                     </div>
                     <br />
                     <div >
-                        <div><textarea className="source" rows="10" cols="100" name="source" value={source} onChange={change} style={{ fontSize: "x-large" }} placeholder="enter code here..." required></textarea></div>
+                        <div><textarea className="source" rows="10" cols="100" name="source" value={source} onChange={change} style={{ fontSize: "large" }} placeholder="enter code here..." required></textarea></div>
                         <br />
                         <div >
                             <div>

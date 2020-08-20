@@ -2,7 +2,7 @@
 textarea{
     
     border-radius: 40px;
-    padding:40px;
+    /* padding:40px; */
     max-width: 100%;
     overflow: hidden;
     
@@ -22,6 +22,9 @@ select:focus{
     outline:none
 }
 
+.source{
+    padding:40px
+}
 
 img{
     /* width:50px; */
@@ -48,4 +51,12 @@ div img:hover{
     font-size: large;
     padding:5px 20px;
     border-radius: 10px;
+}
+
+@media only screen and (max-width: 600px){
+    .source{
+        padding:20px;
+        padding-top: 35px;
+    }
+
 }
