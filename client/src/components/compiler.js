@@ -175,13 +175,14 @@ const Compiler = () => {
                             <h6>Python</h6>
                         </div>
                         <div>
+
                             <img onClick={program} alt="Java" src="https://img.icons8.com/ios-filled/50/000000/java-coffee-cup-logo--v1.png" />
                             <br />
                             <h6 style={{ paddingLeft: 10 }}>Java</h6>
                         </div>
                         <div>
 
-                            <img onClick={program} alt="C++" src="https://img.icons8.com/ios-filled/50/000000/c-plus-plus-logo.png" />
+                            <img onClick={program} alt="C++" src="https://img.icons8.com/ios/50/000000/c-plus-plus-logo.png" />
                             <br />
                             <h6 style={{ paddingLeft: 10 }}>C++</h6>
                         </div>
@@ -207,11 +208,11 @@ const Compiler = () => {
                     </div>
                     <br />
                     <div >
-                        <div><textarea className="source" rows="10" cols="100" name="source" value={source} onChange={change} style={{ fontSize: "large" }} placeholder="enter code here..." required></textarea></div>
+                        <textarea className="source" rows="10" cols="150" name="source" value={source} onChange={change} style={{ fontSize: "large" }} placeholder="enter code here..." required></textarea>
                         <br />
                         <div >
                             <div>
-                                <div className="d-flex justify-content-around ">
+                                <div className="d-flex justify-content-around " style={{ marginTop: 20 }}>
                                     <button className="btn btn-primary btn-border" value="Run" onClick={run}>Run</button> &nbsp;&nbsp;
                                     <button className="btn btn-info btn-border" onClick={input}>stdin</button> &nbsp;&nbsp;
                                     <button className="btn btn-danger btn-border" onClick={clear}>Reset</button>
@@ -237,10 +238,10 @@ const Compiler = () => {
                                     <hr />
                                     <div >
                                         <h4 style={{ textAlign: "center", padding: 10 }}>Output</h4>
-                                        <h4>
 
-                                            <textarea className="source" rows="5" cols="100" placeholder="output will be shown here" value={result.output} />
-                                        </h4>
+
+                                        <textarea className="source" rows="5" cols="150" placeholder="output will be shown here" value={result.output} />
+
                                     </div>
                                 </div>
                             </div>
